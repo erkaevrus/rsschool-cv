@@ -13,23 +13,23 @@ Now, I am just enjoying the process. I like my life. I like to create new things
 I decided to stay on a way of mastery. Every day I am learning some new and becoming better myself. I am trying do this world a little better.
 
 ## Skills:
-*HTML
-*CSS
-*Python
-*JavaScript
-*Git
-*Linux
-*VScode
+* HTML
+* CSS
+* Python
+* JavaScript
+* Git
+* Linux
+* VScode
 
 ## Code Example:
-```function arrayDiff(a, b) {
-  return a.filter((x) => !b.includes(x))
-}
+```sh
+function arrayDiff(a, b) {
+  return a.filter((x) => !b.includes(x))}
 ```
 ## Experience:
 
 ## Education:
-*University: St. Petersburg State Marine Technical University, shipbuilding. Master
+* University: St. Petersburg State Marine Technical University, shipbuilding. Master
 
 ## English
 A2
