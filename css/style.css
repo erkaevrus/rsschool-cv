@@ -30,7 +30,6 @@ body {
   line-height: 17px;
   color: #222222;
   background-color: #E5E5E5;
-
 }
 
 .header {
@@ -223,4 +222,26 @@ body {
 
 .project-text {
   margin-left: 5px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  padding: 15px 0;
+  background-color: #999999;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: uppercase;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  text-decoration: underline;
 }
