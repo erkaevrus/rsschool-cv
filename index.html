@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CV</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#aboutme" class="menu-link">About me</a></li>
+          <li class="menu-item"><a href="#experience" class="menu-link">Experience</a></li>
+          <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+          <li class="menu-item"><a href="#education" class="menu-link">Education</a></li>
+          <li class="menu-item"><a href="#language" class="menu-link">Language</a></li>
+          <li class="menu-item"><a href="#projects" class="menu-link">Projects</a></li>
+          <li class="menu-item"><a href="#code" class="menu-link">Code</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="aboutme">
+      <div class="container">
+        <div class="aboutme-inner">
+          <div class="aboutme-left">
+            <h1 class="aboutme-name">Rustam Erkaev</h1>
+            <h3 class="abouteme-subtitle">Junior Frontend developer</h3>
+            <p class="aboutme-text">Some time ago, I wanted to be the best. I tried jump over my head to prove all that I am worth something. Now, I am just enjoying the process. I like to create new things. I like programming. I want to become a professional. I decided to stay on a way of mastery. Every day I am learning some new and becoming better myself. I am trying do this world a little better.</p>
+            <div class="contacts">
+              <div class="contacts-location"><img width="20" height="20" class="contacts-img" src="assets/img/location.png" alt="location"><span class="contacts-location-text">Tashkent, Uzbekistan</span>
+              </div>
+                <ul class="contacts-list">
+                  <li class="contacts-item"><img width="20" height="20" class="contacts-img" src="assets/img/phone.png" alt="phone"><span class="contacts-item-text">+998 93 325 00 30</span></li>
+                  <li class="contacts-item"><img width="20" height="20" class="contacts-img" src="assets/img/mail.png" alt="mail"><span class="contacts-item-text">erk_08@mail.ru</span></li>
+                  <li class="contacts-item"><img width="20" height="20" class="contacts-img" src="assets/img/telegram.png" alt="telegram"><span class="contacts-item-text">magistr_py</span></li>
+                </ul>
+            </div>
+          </div>
+          <div class="aboutme-right">
+            <img width="200" height="200" src="assets/img/photo.png" alt="photo">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="inner-container">
+        <div class="left-side">
+          <section class="experience" id="experience">
+            <h2 class="title-experience">Experience</h2>
+            <h3 class="subtitle-experience">Sep.2019 - Sep.2022</h3>
+            <h4 class="sub-subtitle-experience">Manager/Technical specialist</h4>
+            <span class="text-degree"> Manicure studio</span>
+            <p class="experience-text">- Organization of business processes</p>
+            <p class="experience-text">- Accounting and financial reporting</p>
+            <p class="experience-text">- Purchases and negotiations with suppliers</p>
+            <p class="experience-text">- Setup and administration CRM and other services</p>
+            <p class="experience-text">- Сonducting of advertising campaigns at social media and other platforms</p>
+            <hr class="hr-line">
+            <h3 class="subtitle-experience">Mar.2014 - Aug.2019</h3>
+            <h4 class="sub-subtitle-experience">Engineer constructor</h4>
+            <span class="text-degree">Large design bureaus/ Shipyards</span>
+            <p class="experience-text">- Development/ review/ update working documentation </p>
+            <p class="experience-text">- Solving the operational issues during construction</p>
+            <p class="experience-text">- Coordination conflict with the customer</p>
+            <p class="experience-text">- Negotiations with supervision bodies</p>
+            <hr class="hr-line">
+          </section>
+          <section class="code" id="code">
+            <h2 class="title-code">Code Example</h2>
+            <p class="code-text">
+              <code>
+                function arrayDiff(a, b) {
+                  return a.filter((x) => !b.includes(x))}
+              </code>
+            </p>
+          </section>
+        </div>
+        <div class="right-side">
+          <section class="skills" id="skills">
+            <h2 class="title-skills">Skills</h2>
+            <p class="skills-text">- Javascript - HTML - CSS - Git - Github - Figma - Python - Linux - VSCode</p>
+            <hr class="hr-line">
+          </section>
+          <section class="education" id="education">
+            <h2 class="title-education">Education</h2>
+            <h3 class="subtitle-education">2015 - 2017</h3>
+            <h4 class="sub-subtitle-education">St. Petersburg State Marine Technical University - Shipbuilding</h4>
+            <p class="text-degree">Master</p>
+            <hr class="hr-line">
+            <h3 class="subtitle-education">2011 - 2015</h3>
+            <h4 class="sub-subtitle-education">St. Petersburg State Marine Technical University - Shipbuilding</h4>
+            <p class="text-degree">Bachelor</p>
+            <hr class="hr-line">
+          </section>
+            <section class="language" id="language">
+              <h2 class="title-langeage">Language</h2>
+              <ul class="language-list">
+                <li class="language-item">Russian (Native)</li>
+                <li class="language-item">English - A2</li>
+              </ul>
+            </section>
+              <section class="projects" id="projects">
+                <h2 class="title-projects">Projects</h2>
+                <ul class="projects-list">
+                  <li class="projects-item"><a href="https://github.com/erkaevrus/Brain-Games" class="projects-link">Brain Games</a><img width="20" height="20" class="projects-img" src="assets/img/link.png" alt="link">
+                    <span class="project-text">Five simple mathematics quiz games implemented on Python</span>
+                  </li>
+                  <li class="projects-item"><a href="https://github.com/erkaevrus/iphone-14-pro" class="projects-link">Website Iphone 14 pro</a><img width="20" height="20" class="projects-img" src="assets/img/link.png" alt="link">
+                    <span class="project-text">Single page website</span>
+                  </li>
+                </ul>
+              </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="https://github.com/erkaevrus?tab=repositories" class="footer-link"><img width="20" height="20" class="contacts-img" src="assets/img/github.png" alt="github"><span class="contacts-item-text">My Github</span></a>
+        <p class="footer-year">2022</p>
+        <a href="https://rs.school/js/" class="footer-link"><img width="50"  class="contacts-img" src="https://rs.school/images/rs_school_js.svg" alt="logo"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
